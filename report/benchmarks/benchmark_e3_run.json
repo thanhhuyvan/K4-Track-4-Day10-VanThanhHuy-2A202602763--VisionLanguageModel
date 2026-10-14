@@ -1,0 +1,243 @@
+{
+  "name": "benchmark_e3",
+  "setup": "E3",
+  "status": "completed",
+  "rank": 16,
+  "train_fraction": 1.0,
+  "train_images": 1422,
+  "batch_size": 1,
+  "grad_accum": 8,
+  "learning_rate": 0.0002,
+  "requested_steps": 20,
+  "completed_steps": 20,
+  "attempts": 20,
+  "overflow_attempts": 0,
+  "trainable_params": 148426752,
+  "peak_vram_gb": 10.717180252075195,
+  "train_minutes": 3.779855967049995,
+  "dataset_version": "d10-21e4070301",
+  "losses": [
+    1.697688803076744,
+    0.8550025522708893,
+    0.8716979846358299,
+    0.7712602615356445,
+    0.7767052203416824,
+    0.7914332151412964,
+    0.7984384372830391,
+    0.7623794376850128,
+    0.6836549788713455,
+    0.7429804876446724,
+    0.6929271966218948,
+    0.691095344722271,
+    0.7617615833878517,
+    0.6968738436698914,
+    0.6753411330282688,
+    0.6412762776017189,
+    0.641072116792202,
+    0.6293109282851219,
+    0.6375819556415081,
+    0.6885973587632179
+  ],
+  "history": [
+    {
+      "attempt": 1,
+      "loss": 1.697688803076744,
+      "lr": 0.0002,
+      "grad_norm": 8.99675178527832,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 1
+    },
+    {
+      "attempt": 2,
+      "loss": 0.8550025522708893,
+      "lr": 0.0002,
+      "grad_norm": 2.3047690391540527,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 2
+    },
+    {
+      "attempt": 3,
+      "loss": 0.8716979846358299,
+      "lr": 0.00019863613034027224,
+      "grad_norm": 3.2285940647125244,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 3
+    },
+    {
+      "attempt": 4,
+      "loss": 0.7712602615356445,
+      "lr": 0.00019458172417006347,
+      "grad_norm": 1.3974392414093018,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 4
+    },
+    {
+      "attempt": 5,
+      "loss": 0.7767052203416824,
+      "lr": 0.0001879473751206489,
+      "grad_norm": 1.5430808067321777,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 5
+    },
+    {
+      "attempt": 6,
+      "loss": 0.7914332151412964,
+      "lr": 0.00017891405093963938,
+      "grad_norm": 0.9832884669303894,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 6
+    },
+    {
+      "attempt": 7,
+      "loss": 0.7984384372830391,
+      "lr": 0.00016772815716257412,
+      "grad_norm": 3.0542001724243164,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 7
+    },
+    {
+      "attempt": 8,
+      "loss": 0.7623794376850128,
+      "lr": 0.00015469481581224272,
+      "grad_norm": 1.4418346881866455,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 8
+    },
+    {
+      "attempt": 9,
+      "loss": 0.6836549788713455,
+      "lr": 0.00014016954246529696,
+      "grad_norm": 1.0575636625289917,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 9
+    },
+    {
+      "attempt": 10,
+      "loss": 0.7429804876446724,
+      "lr": 0.00012454854871407994,
+      "grad_norm": 1.492617130279541,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 10
+    },
+    {
+      "attempt": 11,
+      "loss": 0.6929271966218948,
+      "lr": 0.00010825793454723325,
+      "grad_norm": 1.358679175376892,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 11
+    },
+    {
+      "attempt": 12,
+      "loss": 0.691095344722271,
+      "lr": 9.174206545276677e-05,
+      "grad_norm": 1.1130067110061646,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 12
+    },
+    {
+      "attempt": 13,
+      "loss": 0.7617615833878517,
+      "lr": 7.54514512859201e-05,
+      "grad_norm": 0.8935688138008118,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 13
+    },
+    {
+      "attempt": 14,
+      "loss": 0.6968738436698914,
+      "lr": 5.983045753470308e-05,
+      "grad_norm": 1.786426305770874,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 14
+    },
+    {
+      "attempt": 15,
+      "loss": 0.6753411330282688,
+      "lr": 4.530518418775733e-05,
+      "grad_norm": 1.1925276517868042,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 15
+    },
+    {
+      "attempt": 16,
+      "loss": 0.6412762776017189,
+      "lr": 3.227184283742591e-05,
+      "grad_norm": 0.9564402103424072,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 16
+    },
+    {
+      "attempt": 17,
+      "loss": 0.641072116792202,
+      "lr": 2.1085949060360654e-05,
+      "grad_norm": 1.1246898174285889,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 17
+    },
+    {
+      "attempt": 18,
+      "loss": 0.6293109282851219,
+      "lr": 1.2052624879351104e-05,
+      "grad_norm": 0.7191578149795532,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 18
+    },
+    {
+      "attempt": 19,
+      "loss": 0.6375819556415081,
+      "lr": 5.418275829936537e-06,
+      "grad_norm": 1.689112901687622,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 19
+    },
+    {
+      "attempt": 20,
+      "loss": 0.6885973587632179,
+      "lr": 1.3638696597277679e-06,
+      "grad_norm": 0.8418235778808594,
+      "scale_before": 1024.0,
+      "scale_after": 1024.0,
+      "updated": true,
+      "completed_steps": 20
+    }
+  ]
+}
