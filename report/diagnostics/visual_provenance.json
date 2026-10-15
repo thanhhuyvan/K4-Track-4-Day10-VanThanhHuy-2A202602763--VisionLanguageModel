@@ -1,0 +1,7 @@
+{
+  "prediction_source": "/kaggle/working/day10/work/e3_test.jsonl",
+  "prediction_sha256": "89b3fb814c9a3b58f51dbfb261d008352a502e00c4a265a1e4920a3d4686b662",
+  "dataset_version": "d10-21e4070301",
+  "experiment": "E3_300_steps",
+  "selection": "purposive TP per class + FP + FN + near miss"
+}
